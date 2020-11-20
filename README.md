@@ -10,6 +10,8 @@
 
   ②  执行方法级测试选择： java -jar testSelection.jar -m <project_target> <change_info>
 
-  其中target目录路径和change_info文件路径均为绝对路径。
+  注：其中target目录路径和change_info文件路径均为绝对路径。
+
+  ​        jar包运行中会自动生成依赖图pdf，无需另外使用命令行。
 
 - ##### 如需重新生成jar包，为保证正常运行，请删除jar包中META-INF目录下的*.SF和\*.RSA文件。
